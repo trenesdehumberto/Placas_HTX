@@ -24,27 +24,49 @@ Para programar el arduino lo primero que tenemos que hacer es cargar la librerí
 PROGRAMANDO ARDUINO
 
 Primero nos vamos a la opción de menú PROGRAMA > INCLUIR LIBRERÍA > AÑADIR 
-
+![Añadir librería en IDE Arduino](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino01.jpg)
 
 Buscamos el archivo que nos hemos descargado antes y lo abrimos:
 
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino02.jpg)
 
 Para comprobar que se ha cargado correctamente lo podemos mirar en  PROGRAMA > INCLUIR LIBRERÍA > LOCONET
+
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino03.jpg)
 
 
 Ahora pasamos a cargar el programa de arduino. El programa (o sketch) lo ha realizado Daniel Guisado y podéis seguirlo en su magnífico blog del Club N Caldes. Sin su inestimable esfuerzo y dedicación, todo esto no se habría logrado. Gracias.
 
 Abrimos el archivo .ino y configuramos la placa que vamos a usar entrando en HERRAMIENTAS > PLACA > ARDUINO UNO
 
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino04.jpg)
 
 A continuación seleccionamos el puerto COM que nos habrá creado el PC al conectar la placa por USB. Nos vamos a HERRAMIENTAS > PUERTO > COMx (siendo x el número de puerto que nos da el PC)
 
-
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino05.jpg)
 
 Por último seleccionamos el programador que usará el entorno para cargar nuestro programa a la placa. Entramos en HERRAMIENTAS > PROGRAMADOR > AVRISP mkII (este es el que me ha usado a mi por defecto)
 
-
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino06.jpg)
 
 Para finalizar procedemos a compilar y subir el programa a la placa.
+
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino07.jpg)
+
+#CONFIGURANDO HTX003 EN ROCRAIL
+
+Lo primero es "buscar"  la placa que queremos configurar de entre todas las que puede haber instaladas. Para ello nos vamos PROGRAMAR > GCA > GCA50
+
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/RocRail01.jpg)
+
+Esto nos abre una nueva ventada que tiene varias pestañas donde se configura la placa como entrada, salida o ambas cosas a la vez. Para localizar la placa a programar nos vamos a la pestaña "ADDRESSES" y a continuación pulsamos en el botón "QUERTY"
+
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/RocRail02.jpg)
+
+Esto hará que en esa misma pantalla se nos listen todos los dispositivos compatibles con la GCA50. Recordar que el programa que ha hecho Dani Guisado no es más que reproducir el funcionamiento de dicha placa pero vía software, por eso se configura exactamente igual que esta placa.
+
+Una vez se nos listen todas, seleccionamos la que queramos programar. Las placas vienen por defecto con un valor LOW de 81 y un valor SUB de 1. Bastará con modificar dichos valores a los que queramos y pulsar el botón SET
+
+![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/RocRail03.jpg)
 
 
