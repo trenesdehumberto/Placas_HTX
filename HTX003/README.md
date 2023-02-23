@@ -53,7 +53,8 @@ Para finalizar procedemos a compilar y subir el programa a la placa.
 
 ![](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino07.jpg)
 
-#CONFIGURANDO HTX003 EN ROCRAIL
+
+## CONFIGURANDO HTX003 EN ROCRAIL
 
 Lo primero es "buscar"  la placa que queremos configurar de entre todas las que puede haber instaladas. Para ello nos vamos PROGRAMAR > GCA > GCA50
 
