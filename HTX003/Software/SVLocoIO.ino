@@ -98,17 +98,17 @@ void setup()
   // First initialize the LocoNet interface
   LocoNet.init(7);
 
-  // Configure the serial port for 57600 baud
+  // Configuramos puerto serie a 57600 baudios
   #ifdef DEBUG
   Serial.begin(57600);
   Serial.print("SVLocoIO v.");Serial.println(VERSION);
   #endif 
 
-  //Load config from EEPROM
+  //Cargamos configuración desde la EEPROM
   for (n=0;n<51;n++)
     svtable.data[n]=EEPROM.read(n);
 
-  //Check for a valid config
+  //Verificamos si es una configuración válida
   if (svtable.svt.vrsion!=VERSION || svtable.svt.addr_low<1 || svtable.svt.addr_low>240 || svtable.svt.addr_high<1 || svtable.svt.addr_high>100 )
   {
     svtable.svt.vrsion=VERSION;
