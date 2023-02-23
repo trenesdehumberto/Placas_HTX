@@ -2,6 +2,8 @@
 
 La placa está basada en el diseño esquemático de la MRRWA que junto con una librería específica hace posible dicha comunicación.
 
+<img src="../HTX001/LocoNetInterface.png" width=40% height=40%>
+
 El diseño básico contiene la interfaz para un arduino UNO y para un arduino NANO. La alimentación la puede tomar tanto del propio bus loconet como de una fuente externa de 12V en corriente contínua. He puesto un estabilizador de tensión para reducir los 12V que entran por el bus loconet o por la fuente externa a los 5V que necesita el arduino para trabajar y el resto de componentes, así como lo que se le conecte de accesorio. La fuente está estabilizada y apenas genera calor, por lo que no hace falta disipador. Con esto conseguimos también que el regulador de 5V interno de arduino no trabaje y por consiguiente no se genere calor innecesario.
 
 Pruebas para el reconocimiento de la placa en Rocrail
