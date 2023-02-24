@@ -15,7 +15,7 @@ Se le puede conectar una HTX002 o una GCA93 para detectar el paso de los trenes 
 
 La placa se conecta al bus de datos por medio de las clavijas RJ12.
 
-En mi caso, lo conecto a la central DR5000 de Digikeijsal puerto Loconet B (la B la podemos entender como de Booster) que es la que lleva alimentación de 12V en los pines 1 y 6.
+En mi caso, lo conecto a la central DR5000 de Digikeijsal puerto Loconet T que es la que lleva alimentación de 12V en los pines 1 y 6. El Loconet B envía la señal DCC por esos mismos pines y está pensada para conectar un Booster que amplifique la señal DCC.
 
 
 
