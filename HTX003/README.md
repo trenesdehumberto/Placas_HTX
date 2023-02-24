@@ -23,7 +23,7 @@ Para programar el arduino lo primero que tenemos que hacer es cargar la librerí
 
 
 
-PROGRAMANDO ARDUINO
+## PROGRAMANDO ARDUINO
 
 Primero nos vamos a la opción de menú PROGRAMA > INCLUIR LIBRERÍA > AÑADIR 
 ![Añadir librería en IDE Arduino](https://github.com/humberthx/Placas_HTX/blob/d798baade56a8e8b684824a4597586e770f43095/HTX003/Im%C3%A1genes/Arduino01.jpg)
